@@ -4,7 +4,6 @@ A tablet diagnostics and reliability toolkit for field teams deploying and maint
 tablets at scale in low-connectivity environments — schools, mobile clinics, and other settings
 where devices are provisioned once and then left largely unattended for long stretches.
 
-> Replace `OWNER` in the badge URL above with your GitHub username/org once this repo is pushed.
 
 ---
 
