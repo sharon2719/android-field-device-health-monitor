@@ -1,7 +1,5 @@
 # Android Field Device Health Monitor
 
-[![Android CI](https://github.com/OWNER/android-field-device-health-monitor/actions/workflows/android-ci.yml/badge.svg)](https://github.com/OWNER/android-field-device-health-monitor/actions/workflows/android-ci.yml)
-
 A tablet diagnostics and reliability toolkit for field teams deploying and maintaining Android
 tablets at scale in low-connectivity environments — schools, mobile clinics, and other settings
 where devices are provisioned once and then left largely unattended for long stretches.
