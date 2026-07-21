@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+        Minimal platform bootstrap theme. All real theming (colors, typography, shapes)
+        is done in Compose via MaterialTheme — see ui/theme/Theme.kt. This XML theme only
+        needs to exist so the manifest has a valid android:theme before Compose takes over,
+        and to set the window background shown during process start-up.
+    -->
+    <style name="Theme.FieldHealthMonitor" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/ic_launcher_background</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>

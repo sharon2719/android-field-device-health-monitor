@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Required to query ConnectivityManager for the Network Connectivity Monitor. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Lets the connectivity monitor distinguish Wi-Fi from mobile data transports. -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--
+        Battery and storage diagnostics (BatteryManager, StatFs, ActivityManager) are
+        read-only system queries and do not require a runtime or install-time permission.
+    -->
+
+    <application
+        android:name=".FieldHealthMonitorApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FieldHealthMonitor"
+        android:usesCleartextTraffic="false"
+        tools:targetApi="34"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:exported="true"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.FieldHealthMonitor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

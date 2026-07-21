@@ -1,0 +1,26 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+.claude/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Gradle wrapper jar is generated locally via `gradle wrapper` (see README) and is
+# intentionally not committed as a binary artifact in this text-based portfolio repo.
+gradle/wrapper/gradle-wrapper.jar
+
+# Log/profiling
+*.hprof
+*.log
+
+# Keystores
+*.jks
+*.keystore

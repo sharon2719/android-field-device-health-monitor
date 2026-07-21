@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Field Device Health Monitor</string>
+
+    <!-- Bottom navigation / top-level destinations -->
+    <string name="nav_dashboard">Device</string>
+    <string name="nav_battery">Battery</string>
+    <string name="nav_storage">Storage</string>
+    <string name="nav_network">Network</string>
+    <string name="nav_learning">Records</string>
+    <string name="nav_diagnostics">Diagnostics</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Diagnostics -->
+    <string name="diagnostics_title">Device Readiness Report</string>
+    <string name="diagnostics_run">Run Device Check</string>
+    <string name="diagnostics_status_ready">READY</string>
+    <string name="diagnostics_status_attention">NEEDS ATTENTION</string>
+
+    <!-- Report -->
+    <string name="report_title">Diagnostics Report Generator</string>
+    <string name="report_generate">Generate Report</string>
+    <string name="report_share">Share Report</string>
+    <string name="report_copy">Copy to Clipboard</string>
+
+    <!-- Kiosk -->
+    <string name="kiosk_title">Deployment Settings</string>
+    <string name="kiosk_toggle_label">Deployment Mode</string>
+    <string name="kiosk_enabled_notice">Deployment mode active — this device is running in dedicated learning-tablet mode.</string>
+
+    <!-- OTA -->
+    <string name="ota_title">System Update</string>
+</resources>
